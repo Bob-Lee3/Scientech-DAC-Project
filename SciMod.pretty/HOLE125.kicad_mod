@@ -1,0 +1,13 @@
+(module HOLE125 (layer F.Cu) (tedit 528BA18E)
+  (descr "Mounting Hole .125in DIA")
+  (solder_mask_margin 0.0635)
+  (clearance 0.0254)
+  (fp_text reference H1 (at 0 -4.953) (layer F.SilkS)
+    (effects (font (size 1.143 1.27) (thickness 0.2032)))
+  )
+  (fp_text value MNT_HOLE (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.143 1.27) (thickness 0.2032)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 6.35 6.35) (drill 3.175) (layers *.Cu *.Mask Eco1.User)
+    (solder_mask_margin 0.0635) (clearance 0.254))
+)

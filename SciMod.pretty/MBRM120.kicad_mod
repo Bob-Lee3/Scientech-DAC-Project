@@ -1,0 +1,11 @@
+(module MBRM120 (layer F.Cu) (tedit 5255919A)
+  (attr smd)
+  (fp_text reference D? (at -4.064 0) (layer F.SilkS)
+    (effects (font (size 1.27 1.27) (thickness 0.1524)))
+  )
+  (fp_text value 0 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.29972 0.29972) (thickness 0.0508)))
+  )
+  (pad 1 smd rect (at -1.1684 0) (size 2.667 2.54) (layers F.Cu F.Paste F.Mask Eco1.User))
+  (pad 2 smd rect (at 1.1684 0) (size 0.762 1.27) (layers F.Cu F.Paste F.Mask Eco1.User))
+)

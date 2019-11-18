@@ -1,0 +1,12 @@
+(module HOLE156 (layer F.Cu) (tedit 52AF7102)
+  (descr ".156 dia npth")
+  (attr smd)
+  (fp_text reference H? (at 0 -0.20066) (layer F.SilkS)
+    (effects (font (size 0.39878 0.39878) (thickness 0.0508)))
+  )
+  (fp_text value "" (at 0 0.29972) (layer F.SilkS) hide
+    (effects (font (size 0.29972 0.29972) (thickness 0.0508)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 3.9624 3.9624) (drill 3.9624) (layers *.Cu *.Mask)
+    (solder_mask_margin 2.794) (clearance 0.254))
+)

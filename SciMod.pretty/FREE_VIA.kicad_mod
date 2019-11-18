@@ -1,0 +1,12 @@
+(module FREE_VIA (layer F.Cu) (tedit 527BD549)
+  (descr "28X16 Free Via")
+  (clearance 0.0254)
+  (fp_text reference FV? (at 0 0) (layer F.SilkS)
+    (effects (font (size 0.39878 0.39878) (thickness 0.0508)))
+  )
+  (fp_text value VIA1 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.29972 0.29972) (thickness 0.0508)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 0.7112 0.7112) (drill 0.4064) (layers *.Cu)
+    (clearance 0.0254) (zone_connect 2))
+)

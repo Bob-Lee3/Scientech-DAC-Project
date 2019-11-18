@@ -1,0 +1,10 @@
+(module EIA2512 (layer F.Cu) (tedit 525582F0)
+  (fp_text reference ? (at -6.223 0) (layer F.SilkS)
+    (effects (font (size 1.27 1.27) (thickness 0.1524)))
+  )
+  (fp_text value 0 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.29972 0.29972) (thickness 0.0508)))
+  )
+  (pad 1 smd rect (at -2.9972 0) (size 1.9304 3.048) (layers F.Cu F.Paste F.Mask Eco1.User))
+  (pad 2 smd rect (at 2.9972 0) (size 1.9304 3.048) (layers F.Cu F.Paste F.Mask Eco1.User))
+)

@@ -1,0 +1,12 @@
+(module EIA0402 locked (layer F.Cu) (tedit 52839072)
+  (clearance 0.0127)
+  (attr smd)
+  (fp_text reference R1 (at -2.413 0) (layer F.SilkS)
+    (effects (font (size 1.27 1.27) (thickness 0.1524)))
+  )
+  (fp_text value 133K (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.29972 0.29972) (thickness 0.0508)))
+  )
+  (pad 1 smd rect (at -0.508 0) (size 0.5588 0.8382) (layers F.Cu F.Paste F.Mask Eco1.User))
+  (pad 2 smd rect (at 0.508 0) (size 0.5588 0.8382) (layers F.Cu F.Paste F.Mask Eco1.User))
+)
