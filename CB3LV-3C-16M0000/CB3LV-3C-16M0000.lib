@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# CB3LV-3C-16M0000
+#
+DEF CB3LV-3C-16M0000 X 0 40 Y Y 1 L N
+F0 "X" -400 425 50 H V L BNN
+F1 "CB3LV-3C-16M0000" -401 -476 50 H V L BNN
+F2 "OSCCC700X500X180-4N" 0 0 50 H I L BNN
+F3 "CTS-Frequency" 0 0 50 H I L BNN
+F4 "Oscillator XO 16MHz ±50ppm 50pF HCMOS/TTL 55% 3.3V 4-Pin SMD T/R" 0 0 50 H I L BNN
+F5 "SMD-4 CTS Components" 0 0 50 H I L BNN
+F6 "CB3LV-3C-16M0000" 0 0 50 H I L BNN
+F7 "Unavailable" 0 0 50 H I L BNN
+F8 "None" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -400 400 -400 -400 N
+P 2 0 0 10 -400 -400 400 -400 N
+P 2 0 0 10 400 -400 400 400 N
+P 2 0 0 10 400 400 -400 400 N
+X EOH 1 -600 0 200 R 40 40 0 0 I 
+X OUT 3 600 0 200 L 40 40 0 0 O 
+X VCC 4 600 300 200 L 40 40 0 0 W 
+X GND 2 600 -300 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
