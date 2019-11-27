@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -3258,52 +3258,10 @@ $EndComp
 Connection ~ 15950 8400
 Wire Wire Line
 	10900 7900 10900 8250
-$Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 5DE414E3
-P 1000 4900
-F 0 "H2" H 1100 4949 50  0000 L CNN
-F 1 "MountingHole_Pad" H 1100 4858 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 1000 4900 50  0001 C CNN
-F 3 "~" H 1000 4900 50  0001 C CNN
-	1    1000 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 5DE42678
-P 1000 4400
-F 0 "H1" H 1100 4449 50  0000 L CNN
-F 1 "MountingHole_Pad" H 1100 4358 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 1000 4400 50  0001 C CNN
-F 3 "~" H 1000 4400 50  0001 C CNN
-	1    1000 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 5DE93920
-P 2000 4900
-F 0 "H4" H 2100 4949 50  0000 L CNN
-F 1 "MountingHole_Pad" H 2100 4858 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 2000 4900 50  0001 C CNN
-F 3 "~" H 2000 4900 50  0001 C CNN
-	1    2000 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H3
-U 1 1 5DE9392A
-P 2000 4400
-F 0 "H3" H 2100 4449 50  0000 L CNN
-F 1 "MountingHole_Pad" H 2100 4358 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 2000 4400 50  0001 C CNN
-F 3 "~" H 2000 4400 50  0001 C CNN
-	1    2000 4400
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2000 4500
-NoConn ~ 2000 5000
-NoConn ~ 1000 5000
-NoConn ~ 1000 4500
+$Sheet
+S 14250 5600 1000 650 
+U 5E1C4ACE
+F0 "Analog Portion" 50
+F1 "DAC2 ANALOG.sch" 50
+$EndSheet
 $EndSCHEMATC
